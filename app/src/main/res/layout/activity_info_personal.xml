@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".infoPersonal">
+
+    <TextView
+        android:text="@string/encuesta"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/genero"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/btnMasculino"
+                    android:layout_width="match_parent"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnMasculiono" />
+
+                <RadioButton
+                    android:id="@+id/btnFemenino"
+                    android:textSize="20sp"
+                    android:text="@string/btnFemenino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/txtEdad"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtEdad"
+        android:inputType="number"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/txtUbicacion"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtUbicacion"
+        android:inputType="text"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:onClick="clickSiguiente"
+        android:paddingLeft="40dp"
+        android:paddingTop="15dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="15dp"
+        android:text="@string/btnSiguiente"
+        android:textSize="20sp" />
+</LinearLayout>

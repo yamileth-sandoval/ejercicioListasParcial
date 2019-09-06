@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ejercicioListasParcial</string>
+    <string name="btnEncuestar">ENCUESTAR</string>
+    <string name="btnProcesar">PROCESAR</string>
+    <string name="encuesta">ENCUESTA</string>
+    <string name="genero">GENERO:</string>
+    <string name="btnFemenino">Femenino</string>
+    <string name="btnMasculiono">Masculino</string>
+    <string name="txtUbicacion">UBICACION:</string>
+    <string name="txtEdad">EDAD:</string>
+    <string name="btnSiguiente">SIGUIENTE</string>
+    <string name="categoria">Categorias de Comidas</string>
+    <string name="cat1">Carnes</string>
+    <string name="cat2">Sopas</string>
+    <string name="cat3">Postres</string>
+    <string name="btnFinalizar">FINALIZAR</string>
+    <string name="lstComida">CATEGORIA: </string>
+    <string name="msgComida">COMIDA:</string>
+    <string name="lstcomOrdenes">LISTA DE ORDENES</string>
+</resources>
